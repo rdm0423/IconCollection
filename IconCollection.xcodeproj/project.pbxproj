@@ -13,6 +13,9 @@
 		3425135D1A9C6FAD000DA646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3425135C1A9C6FAD000DA646 /* Images.xcassets */; };
 		342513601A9C6FAD000DA646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3425135E1A9C6FAD000DA646 /* LaunchScreen.xib */; };
 		3425136C1A9C6FAD000DA646 /* IconCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425136B1A9C6FAD000DA646 /* IconCollectionTests.m */; };
+		3425137D1A9C81F2000DA646 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425137B1A9C81F2000DA646 /* DetailViewController.m */; };
+		3425137E1A9C81F2000DA646 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3425137C1A9C81F2000DA646 /* DetailViewController.xib */; };
+		342513811A9C85B9000DA646 /* IconCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 342513801A9C85B9000DA646 /* IconCollectionViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 		342513651A9C6FAD000DA646 /* IconCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3425136A1A9C6FAD000DA646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3425136B1A9C6FAD000DA646 /* IconCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconCollectionTests.m; sourceTree = "<group>"; };
+		3425137A1A9C81F2000DA646 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3425137B1A9C81F2000DA646 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3425137C1A9C81F2000DA646 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3425137F1A9C85B9000DA646 /* IconCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconCollectionViewDataSource.h; sourceTree = "<group>"; };
+		342513801A9C85B9000DA646 /* IconCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconCollectionViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,11 @@
 				342513541A9C6FAD000DA646 /* AppDelegate.m */,
 				342513561A9C6FAD000DA646 /* ViewController.h */,
 				342513571A9C6FAD000DA646 /* ViewController.m */,
+				3425137F1A9C85B9000DA646 /* IconCollectionViewDataSource.h */,
+				342513801A9C85B9000DA646 /* IconCollectionViewDataSource.m */,
+				3425137A1A9C81F2000DA646 /* DetailViewController.h */,
+				3425137B1A9C81F2000DA646 /* DetailViewController.m */,
+				3425137C1A9C81F2000DA646 /* DetailViewController.xib */,
 				3425135C1A9C6FAD000DA646 /* Images.xcassets */,
 				3425135E1A9C6FAD000DA646 /* LaunchScreen.xib */,
 				3425134F1A9C6FAD000DA646 /* Supporting Files */,
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342513601A9C6FAD000DA646 /* LaunchScreen.xib in Resources */,
+				3425137E1A9C81F2000DA646 /* DetailViewController.xib in Resources */,
 				3425135D1A9C6FAD000DA646 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342513811A9C85B9000DA646 /* IconCollectionViewDataSource.m in Sources */,
 				342513581A9C6FAD000DA646 /* ViewController.m in Sources */,
 				342513551A9C6FAD000DA646 /* AppDelegate.m in Sources */,
 				342513521A9C6FAD000DA646 /* main.m in Sources */,
+				3425137D1A9C81F2000DA646 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

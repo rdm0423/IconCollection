@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  IconCollection
 //
 //  Created by Taylor Mott on 24.2.2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDelegate>
+@interface DetailViewController : UIViewController
 
+@property (strong, nonatomic) NSString *imageName;
 
 @end
-
