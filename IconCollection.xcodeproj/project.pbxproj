@@ -13,6 +13,9 @@
 		3425135D1A9C6FAD000DA646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3425135C1A9C6FAD000DA646 /* Images.xcassets */; };
 		342513601A9C6FAD000DA646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3425135E1A9C6FAD000DA646 /* LaunchScreen.xib */; };
 		3425136C1A9C6FAD000DA646 /* IconCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425136B1A9C6FAD000DA646 /* IconCollectionTests.m */; };
+		FFA55ACE1A9D08AB00D4AF43 /* iconCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA55ACD1A9D08AB00D4AF43 /* iconCollectionViewDataSource.m */; };
+		FFA55AD21A9D0C2B00D4AF43 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA55AD01A9D0C2B00D4AF43 /* DetailViewController.m */; };
+		FFA55AD31A9D0C2B00D4AF43 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA55AD11A9D0C2B00D4AF43 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 		342513651A9C6FAD000DA646 /* IconCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3425136A1A9C6FAD000DA646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3425136B1A9C6FAD000DA646 /* IconCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconCollectionTests.m; sourceTree = "<group>"; };
+		FFA55ACC1A9D08AB00D4AF43 /* iconCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iconCollectionViewDataSource.h; sourceTree = "<group>"; };
+		FFA55ACD1A9D08AB00D4AF43 /* iconCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iconCollectionViewDataSource.m; sourceTree = "<group>"; };
+		FFA55ACF1A9D0C2B00D4AF43 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FFA55AD01A9D0C2B00D4AF43 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FFA55AD11A9D0C2B00D4AF43 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,11 @@
 				342513541A9C6FAD000DA646 /* AppDelegate.m */,
 				342513561A9C6FAD000DA646 /* ViewController.h */,
 				342513571A9C6FAD000DA646 /* ViewController.m */,
+				FFA55ACC1A9D08AB00D4AF43 /* iconCollectionViewDataSource.h */,
+				FFA55ACD1A9D08AB00D4AF43 /* iconCollectionViewDataSource.m */,
+				FFA55ACF1A9D0C2B00D4AF43 /* DetailViewController.h */,
+				FFA55AD01A9D0C2B00D4AF43 /* DetailViewController.m */,
+				FFA55AD11A9D0C2B00D4AF43 /* DetailViewController.xib */,
 				3425135C1A9C6FAD000DA646 /* Images.xcassets */,
 				3425135E1A9C6FAD000DA646 /* LaunchScreen.xib */,
 				3425134F1A9C6FAD000DA646 /* Supporting Files */,
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342513601A9C6FAD000DA646 /* LaunchScreen.xib in Resources */,
+				FFA55AD31A9D0C2B00D4AF43 /* DetailViewController.xib in Resources */,
 				3425135D1A9C6FAD000DA646 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA55AD21A9D0C2B00D4AF43 /* DetailViewController.m in Sources */,
+				FFA55ACE1A9D08AB00D4AF43 /* iconCollectionViewDataSource.m in Sources */,
 				342513581A9C6FAD000DA646 /* ViewController.m in Sources */,
 				342513551A9C6FAD000DA646 /* AppDelegate.m in Sources */,
 				342513521A9C6FAD000DA646 /* main.m in Sources */,
