@@ -1,1 +1,1 @@
-# Numismatics
+# IconCollection
